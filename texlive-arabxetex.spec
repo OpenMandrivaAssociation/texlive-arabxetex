@@ -1,3 +1,9 @@
+# revision 17470
+# category Package
+# catalog-ctan /macros/xetex/latex/arabxetex
+# catalog-date 2010-03-06 08:51:23 +0100
+# catalog-license lppl
+# catalog-version v1.1.4
 Name:		texlive-arabxetex
 Version:	v1.1.4
 Release:	1
@@ -203,6 +209,7 @@ Oriental languages.
 %doc %{_texmfdistdir}/source/xelatex/arabxetex/arabtex.maps
 %doc %{_texmfdistdir}/source/xelatex/arabxetex/arabxetex.dtx
 %doc %{_texmfdistdir}/source/xelatex/arabxetex/makemaps.pl
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -213,3 +220,5 @@ Oriental languages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
