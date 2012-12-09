@@ -209,3 +209,18 @@ Oriental languages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> v1.1.4-2
++ Revision: 749342
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v1.1.4-1
++ Revision: 717849
+- texlive-arabxetex
+- texlive-arabxetex
+- texlive-arabxetex
+- texlive-arabxetex
+- texlive-arabxetex
+
