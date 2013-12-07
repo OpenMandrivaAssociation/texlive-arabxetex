@@ -6,7 +6,7 @@
 # catalog-version v1.1.4
 Name:		texlive-arabxetex
 Version:	v1.1.4
-Release:	2
+Release:	3
 Summary:	An ArabTeX-like interface for XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/arabxetex
