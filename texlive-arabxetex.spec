@@ -1,6 +1,6 @@
 Name:		texlive-arabxetex
 Version:	1.2.1
-Release:	1
+Release:	2
 Summary:	An ArabTeX-like interface for XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/arabxetex
