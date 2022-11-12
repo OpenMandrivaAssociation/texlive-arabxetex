@@ -1,13 +1,13 @@
 Name:		texlive-arabxetex
-Version:	1.2.1
-Release:	2
+Version:	38299
+Release:	1
 Summary:	An ArabTeX-like interface for XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/arabxetex
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.r38299.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.doc.r38299.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.source.r38299.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -30,12 +30,12 @@ OpenType fonts for the Arabic script and for transliterating
 Oriental languages.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -47,7 +47,8 @@ Oriental languages.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
