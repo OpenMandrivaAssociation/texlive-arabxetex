@@ -5,9 +5,9 @@ Summary:	An ArabTeX-like interface for XeLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/arabxetex
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.r38299.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.doc.r38299.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.source.r38299.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
