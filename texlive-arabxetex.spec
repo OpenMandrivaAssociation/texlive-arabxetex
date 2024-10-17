@@ -3,7 +3,7 @@ Version:	38299
 Release:	2
 Summary:	An ArabTeX-like interface for XeLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/arabxetex
+URL:		https://www.ctan.org/tex-archive/macros/xetex/latex/arabxetex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/arabxetex.doc.r%{version}.tar.xz
